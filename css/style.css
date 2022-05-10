@@ -9,11 +9,16 @@ h1{
 
 body{
   background-color: lightgrey;
-  border-color: black;
 }
 
-p{
+header{
+  background-color: darkgray;
+
+}
+
+main section p{
   text-align: left;
   font-size: 25px;
+  margin-bottom: 700px;
   
 }
