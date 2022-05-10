@@ -13,12 +13,19 @@ body{
 
 header{
   background-color: darkgray;
+  margin-top: 50px;
+  margin-bottom: 50px;
 
 }
 
 main section p{
   text-align: left;
-  font-size: 25px;
-  margin-bottom: 700px;
+  font-size: 20px;
+  margin-bottom: 650px;
+  background-color: whitesmoke;
   
+}
+
+footer{
+  color: red;
 }
