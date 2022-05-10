@@ -1,0 +1,19 @@
+h1{
+  
+  border-color: black;
+  border-width: 50px;
+  background-color: darkgrey;
+  font-size: 50px;
+
+}
+
+body{
+  background-color: lightgrey;
+  border-color: black;
+  border-radius: 100px;
+}
+
+h2{
+  text-align: left;
+  
+}
