@@ -1,3 +1,7 @@
+p{
+  margin: 25px;
+}
+
 h1{
   
   border: black;
@@ -5,6 +9,18 @@ h1{
   background-color: darkgrey;
   font-size: 50px;
 
+}
+
+h2{
+  background-color: aliceblue;
+}
+
+h3{
+  background-color: aliceblue;
+}
+
+h4{
+  background-color: aliceblue;
 }
 
 body{
@@ -29,12 +45,17 @@ main section p{
 
 footer{
   color: red;
+  margin-top: 200px;
 }
 
 ol{
   list-style: decimal;
+  list-style-position: inside;
+  margin: 25px;
 }
 
 ul{
   list-style: disc;
+  list-style-position: inside;
+  margin: 25px;
 }
