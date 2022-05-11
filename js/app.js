@@ -9,7 +9,7 @@ console.log('Hello World!');
 // if(answerOne === 'yes' || answerOne === 'y'){
 //   alert('You are correct');
 // } else if(answerOne === 'no' || answerOne === 'n'){
-//   alert('Wrong, I have 6!');
+//   alert('Wrong, I have children!');
 // }
 
 // let answerTwo = prompt('Do I love coding?').toLowerCase();
@@ -57,6 +57,23 @@ console.log('Hello World!');
 // //console.log(userName);
 
 // alert('Welcome to my page, ' + userName);
+
+let maxGuesses = 4;
+
+for (let i =1; i <=maxGuesses; i++){
+  let answer = prompt('How many Children do I have?');
+  if (answer === '6'){
+    alert('BINGO!!!');
+    console.log('BINGO!!!');
+    break;
+  } else if (answer <= '5'){
+    alert('Nope, Guess higher');
+  }else if (answer >= '7'){
+    alert('Nope, Guess lower');
+  }else {
+    alert('Close, I have 6 children');
+  }
+}
 
 
 
