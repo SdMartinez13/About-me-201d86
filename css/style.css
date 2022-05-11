@@ -1,6 +1,6 @@
 h1{
   
-  border-color: black;
+  border: black;
   border-width: 50px;
   background-color: darkgrey;
   font-size: 50px;
@@ -12,6 +12,7 @@ body{
 }
 
 header{
+  border: black;
   background-color: darkgray;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -28,4 +29,12 @@ main section p{
 
 footer{
   color: red;
+}
+
+ol{
+  list-style: decimal;
+}
+
+ul{
+  list-style: disc;
 }
