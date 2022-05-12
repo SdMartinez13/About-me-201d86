@@ -89,7 +89,7 @@ for (let i = 0; i < 7; i++) {
   let answer = prompt('What are some of my favorite foods?');
   for (let j = 0; j < foodAnswer.length; j++) {
     if (answer === foodAnswer[j]) {
-      alert('Thats right!');
+      alert('Thats right!' + ' I enjoy tacos, pizza, and sushi');
       score++;
       i=8;
       break;
