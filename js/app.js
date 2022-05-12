@@ -10,7 +10,7 @@ let answerOne = prompt('Do I have Children?').toLowerCase();
 
 if(answerOne === 'yes' || answerOne === 'y'){
   alert('You are correct');
-  score++
+  score++;
 } else if(answerOne === 'no' || answerOne === 'n'){
   alert('Wrong, I have children!');
 }
@@ -21,7 +21,7 @@ let answerTwo = prompt('Do I love coding?').toLowerCase();
 
 if(answerTwo === 'yes' || answerTwo === 'y'){
   alert('Yes, don\'t we all?');
-  score++
+  score++;
 }else if(answerTwo === 'no' || answerTwo === 'n'){
   alert('NO? Actually, I find it very exciting!');
 }
@@ -32,7 +32,7 @@ let answerThree = prompt('Am I in my 40s?').toLowerCase();
 
 if(answerThree === 'yes' || answerThree === 'y'){
   alert('Wow, good guess!!');
-  score++
+  score++;
 }else if(answerThree === 'no' || answerThree === 'n'){
   alert('Thanks for that but no, I\'m 41');
 }
@@ -43,7 +43,7 @@ let answerFour = prompt('Am I a Veteran?').toLowerCase();
 
 if(answerFour === 'yes' || answerFour === 'y'){
   alert('Correct, GO NAVY!');
-  score++
+  score++;
 }else if(answerFour === 'no' || answerFour === 'n'){
   alert('I am a Veteran of the US Navy!');
 }
@@ -54,7 +54,7 @@ let answerFive = prompt('Do I live in WA?').toLowerCase();
 
 if(answerFive === 'yes' || answerFive === 'y'){
   alert('Correct, I live in Pierce County');
-  score++
+  score++;
 }else if(answerFive === 'no' || answerFive === 'n'){
   alert('Actually, I do.  I live in Pierce County, WA');
 }
@@ -71,7 +71,7 @@ for (let i =1; i <=maxGuesses; i++){
   let answer = prompt('How many Children do I have?');
   if (answer === '6'){
     alert('BINGO!!!');
-    score++
+    score++;
     console.log('BINGO!!!');
     break;
   } else if (answer <= '5'){
