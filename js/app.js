@@ -85,7 +85,7 @@ for (let i =1; i <=maxGuesses; i++){
 
 let foodAnswer = ['tacos', 'pizza', 'sushi'];
 
-for (let i = 0; i < 7; i++) {
+for (let i = 0; i < 6; i++) {
   let answer = prompt('What are some of my favorite foods?');
   for (let j = 0; j < foodAnswer.length; j++) {
     if (answer === foodAnswer[j]) {
