@@ -2,61 +2,68 @@
 
 console.log('Hello World!');
 
-// let answerOne = prompt('Do I have Children?').toLowerCase();
+let score = 0;
 
-// //console.log(answerOne);
+let answerOne = prompt('Do I have Children?').toLowerCase();
 
-// if(answerOne === 'yes' || answerOne === 'y'){
-//   alert('You are correct');
-// } else if(answerOne === 'no' || answerOne === 'n'){
-//   alert('Wrong, I have children!');
-// }
+//console.log(answerOne);
 
-// let answerTwo = prompt('Do I love coding?').toLowerCase();
+if(answerOne === 'yes' || answerOne === 'y'){
+  alert('You are correct');
+  score++
+} else if(answerOne === 'no' || answerOne === 'n'){
+  alert('Wrong, I have children!');
+}
 
-// //console.log(answerTwo);
+let answerTwo = prompt('Do I love coding?').toLowerCase();
 
-// if(answerTwo === 'yes' || answerTwo === 'y'){
-//   alert('Yes, don\'t we all?');
-// }else if(answerTwo === 'no' || answerTwo === 'n'){
-//   alert('NO? Actually, I find it very exciting!');
-// }
+//console.log(answerTwo);
 
-// let answerThree = prompt('Am I in my 40s?').toLowerCase();
+if(answerTwo === 'yes' || answerTwo === 'y'){
+  alert('Yes, don\'t we all?');
+  score++
+}else if(answerTwo === 'no' || answerTwo === 'n'){
+  alert('NO? Actually, I find it very exciting!');
+}
 
-// //console.log(answerThree);
+let answerThree = prompt('Am I in my 40s?').toLowerCase();
 
-// if(answerThree === 'yes' || answerThree === 'y'){
-//   alert('Wow, good guess!!');
-// }else if(answerThree === 'no' || answerThree === 'n'){
-//   alert('Thanks for that but no, I\'m 41');
-// }
+//console.log(answerThree);
 
-// let answerFour = prompt('Am I a Veteran?').toLowerCase();
+if(answerThree === 'yes' || answerThree === 'y'){
+  alert('Wow, good guess!!');
+  score++
+}else if(answerThree === 'no' || answerThree === 'n'){
+  alert('Thanks for that but no, I\'m 41');
+}
 
-// //console.log(answerFour);
+let answerFour = prompt('Am I a Veteran?').toLowerCase();
 
-// if(answerFour === 'yes' || answerFour === 'y'){
-//   alert('Correct, GO NAVY!');
-// }else if(answerFour === 'no' || answerFour === 'n'){
-//   alert('I am a Veteran of the US Navy!');
-// }
+//console.log(answerFour);
 
-// let answerFive = prompt('Do I live in WA?').toLowerCase();
+if(answerFour === 'yes' || answerFour === 'y'){
+  alert('Correct, GO NAVY!');
+  score++
+}else if(answerFour === 'no' || answerFour === 'n'){
+  alert('I am a Veteran of the US Navy!');
+}
 
-// //console.log(answerFive);
+let answerFive = prompt('Do I live in WA?').toLowerCase();
 
-// if(answerFive === 'yes' || answerFive === 'y'){
-//   alert('Correct, I live in Pierce County');
-// }else if(answerFive === 'no' || answerFive === 'n'){
-//   alert('Actually, I do.  I live in Pierce County, WA');
-// }
+//console.log(answerFive);
 
-// let userName = prompt('Thanks for playing, What is your name?');
+if(answerFive === 'yes' || answerFive === 'y'){
+  alert('Correct, I live in Pierce County');
+  score++
+}else if(answerFive === 'no' || answerFive === 'n'){
+  alert('Actually, I do.  I live in Pierce County, WA');
+}
 
-// //console.log(userName);
+let userName = prompt('Thanks for playing, What is your name?');
 
-// alert('Welcome to my page, ' + userName);
+//console.log(userName);
+
+alert('Welcome to my page, ' + userName);
 
 let maxGuesses = 4;
 
@@ -64,6 +71,7 @@ for (let i =1; i <=maxGuesses; i++){
   let answer = prompt('How many Children do I have?');
   if (answer === '6'){
     alert('BINGO!!!');
+    score++
     console.log('BINGO!!!');
     break;
   } else if (answer <= '5'){
@@ -74,6 +82,21 @@ for (let i =1; i <=maxGuesses; i++){
     alert('Close, I have 6 children');
   }
 }
+
+let foodAnswer = ['tacos', 'pizza', 'sushi'];
+
+for (let i = 0; i < 7; i++) {
+  let answer = prompt('What are some of my favorite foods?');
+  for (let j = 0; j < foodAnswer.length; j++) {
+    if (answer === foodAnswer[j]) {
+      alert('Thats right!');
+      score++;
+      i=8;
+      break;
+    }
+  }
+}
+alert ('Good job ' + userName + ' you got ' + score + ' correct');
 
 
 
