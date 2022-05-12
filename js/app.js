@@ -93,7 +93,7 @@ function questionSix(){
       break;
     } else if (answer <= '5'){
       alert('Nope, Guess higher');
-    }else if (answer >= '7'){
+    }else if (answer > '7'){
       alert('Nope, Guess lower');
     }else {
       alert('Close, I have 6 children');
